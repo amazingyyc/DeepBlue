@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>   
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+	<!-- 默认时的背景图片--> 
+	
+	<!-- 没有焦点时的背景图片 -->  
+	<item android:state_pressed="false">
+	    <shape>  
+		    <!-- 填充 -->
+		    <corners android:radius="5px"/>
+		    <solid
+		        android:color="#FFFFFFFF"/><!-- 填充的颜色 -->
+		        <stroke android:width="2px"
+		            android:color="#FFEEEEEE"/>
+		</shape>
+	</item>
+</selector>
+
+
+
+
+
+
+
+
+
+

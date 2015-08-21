@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>   
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+	<!-- 默认时的背景图片--> 
+	
+	<!-- 没有焦点时的背景图片 -->  
+	<item android:state_pressed="false">
+    	<shape>  
+		    <!-- 圆角 -->
+		    <corners
+		        android:radius="@dimen/seekbar_thumb_radius"/>
+		    
+		    <!-- 大小 -->
+		    <size
+		        android:width="@dimen/seekbar_thumb_width"
+		        android:height="@dimen/seekbar_thumb_width"/><!-- 宽度和高度 -->
+		    
+		    <!-- 填充 -->
+		    <solid
+		        android:color="@color/seekbar_unpress_color"/><!-- 填充的颜色 -->
+		</shape>
+	</item>
+	 
+	<!-- 非触摸模式下获得焦点并单击时的背景图片 -->  
+	<item android:state_pressed="true">
+	    <shape>  
+		    <!-- 圆角 -->
+		    <corners
+		        android:radius="@dimen/seekbar_thumb_radius"/>
+		    
+		    <!-- 大小 -->
+		    <size
+		        android:width="@dimen/seekbar_thumb_width"
+		        android:height="@dimen/seekbar_thumb_width"/><!-- 宽度和高度 -->
+		    
+		    <!-- 填充 -->
+		    <solid
+		        android:color="@color/seekbar_press_color"/><!-- 填充的颜色 -->
+		</shape>
+	</item>
+	
+	<!-- 触摸模式下单击时的背景图片-->  
+	<item android:state_focused="true">
+	    <shape>  
+		    <!-- 圆角 -->
+		    <corners
+		        android:radius="@dimen/seekbar_thumb_radius"/>
+		    
+		    <!-- 大小 -->
+		    <size
+		        android:width="@dimen/seekbar_thumb_width"
+		        android:height="@dimen/seekbar_thumb_width"/><!-- 宽度和高度 -->
+		    
+		    <!-- 填充 -->
+		    <solid
+		        android:color="@color/seekbar_press_color"/><!-- 填充的颜色 -->
+		</shape>
+	</item> 
+
+</selector>
+
+
+
+
+
+
+
+
+
+

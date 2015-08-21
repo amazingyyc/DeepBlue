@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:clipChildren="false"
+    tools:context="com.amazing.deepblue.MainActivity" >
+
+<!-- /////////////////////////////// -->
+    <ImageView 
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image_content"
+        android:layout_centerInParent="true"/>
+    
+
+    <!-- 文本输入框 AdaptEditText -->
+    <com.amazing.view.AdaptEditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:background="@null"
+        android:textSize="30sp">
+                <!-- android:background="@null" -->
+    </com.amazing.view.AdaptEditText>
+    
+    <!-- info按钮 -->
+    <ImageButton
+            android:id="@+id/info_button"
+            android:layout_width="100px"  
+        	android:layout_height="100px"
+        	android:layout_margin="10px"
+        	android:padding="15px"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"
+            android:background="@drawable/button_bg_selector"
+            android:src="@drawable/ic_action_info" />
+    
+    
+    
+    <!-- //////////////////////////////////////////////////////////// -->
+    <!-- 改变背景颜色的弹出菜单 -->
+	<com.amazing.view.PopMenu
+        android:id="@+id/background_color_pm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFFFF">
+    </com.amazing.view.PopMenu>
+
+	<!-- 改变子体颜色的弹出菜单 -->
+	<com.amazing.view.PopMenu
+        android:id="@+id/font_color_pm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.amazing.view.PopMenu>
+	
+	<!-- 修改高斯模糊程度 -->
+	<com.amazing.view.PopSeekBar 
+	    android:id="@+id/blob_pop_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+		<com.amazing.view.VerticalSeekBarWrapper
+		    android:id="@+id/blob_bar_wrapper"
+		    android:layout_width="100px"
+		    android:layout_height="@dimen/seekbar_height">
+		    <com.amazing.view.VerticalSeekBar
+		        android:id="@+id/blob_bar"
+		        xmlns:VerticalSeekBar="http://schemas.android.com/apk/res/com.amazing.deepblue" 
+			    android:paddingLeft="@dimen/seekbar_padding"
+			    android:paddingRight="@dimen/seekbar_padding"
+		        android:layout_width="0px"  
+		        android:layout_height="0px"
+		        android:max="100"
+		        android:maxHeight="5px"
+		        android:minHeight="5px"
+		        android:progressDrawable="@drawable/seekbar_progress_list"  
+		        android:thumb="@drawable/seekbar_thumb_selector"
+		        VerticalSeekBar:seekBarRotation = "CW270"
+		        >
+		        </com.amazing.view.VerticalSeekBar>
+		</com.amazing.view.VerticalSeekBarWrapper>
+		<ImageButton
+	            android:id="@+id/blob_control_button"
+	            android:layout_width="wrap_content"  
+	        	android:layout_height="wrap_content"
+	            android:background="@drawable/button_bg_selector"
+	            android:src="@drawable/ic_background_blob" />
+	</com.amazing.view.PopSeekBar>
+
+	
+	<!--字体大小 -->
+	<com.amazing.view.PopSeekBar 
+	    android:id="@+id/size_pop_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	<com.amazing.view.VerticalSeekBarWrapper
+	    android:id="@+id/size_bar_wrapper"
+	    android:layout_width="100px"
+	    android:layout_height="@dimen/seekbar_height">
+	    <com.amazing.view.VerticalSeekBar
+	        android:id="@+id/size_bar"
+	        xmlns:VerticalSeekBar="http://schemas.android.com/apk/res/com.amazing.deepblue" 
+		    android:paddingLeft="@dimen/seekbar_padding"
+		    android:paddingRight="@dimen/seekbar_padding"
+	        android:layout_width="0px"  
+	        android:layout_height="0px"
+	        android:max="500"
+	        android:maxHeight="5px"
+	        android:minHeight="5px"
+	        android:progressDrawable="@drawable/seekbar_progress_list"  
+	        android:thumb="@drawable/seekbar_thumb_selector"
+	        VerticalSeekBar:seekBarRotation = "CW270"
+	        >
+	        </com.amazing.view.VerticalSeekBar>
+	</com.amazing.view.VerticalSeekBarWrapper>
+	<ImageButton
+            android:id="@+id/size_control_button"
+            android:layout_width="wrap_content"  
+        	android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_selector"
+            android:src="@drawable/ic_font_size" />
+</com.amazing.view.PopSeekBar>
+
+	
+	<!-- 操作按钮分享等操作-->
+    <com.amazing.view.PopOperateMenu
+        android:id="@+id/operate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="300px"
+        android:layout_marginBottom="300px"
+        android:clipChildren="false">
+    </com.amazing.view.PopOperateMenu>
+	 
+	 
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>   
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+	<!-- 默认时的背景图片--> 
+	
+	<!-- 没有焦点时的背景图片 -->  
+	<item android:state_pressed="false">
+	    <shape android:shape="oval">
+		    <!-- 填充 -->
+		    <solid
+		        android:color="@color/add_button_bg_unpress_color"/><!-- 填充的颜色 -->
+		        
+		        <stroke
+		            android:width="5px"
+		            android:color="@color/stroke_color"/>
+		</shape>
+	</item>
+	 
+	<!-- 非触摸模式下获得焦点并单击时的背景图片 -->  
+	<item android:state_pressed="true">
+	    <shape  android:shape="oval">  
+		    <!-- 填充 -->
+		    <solid
+		        android:color="@color/add_button_bg_press_color"/><!-- 填充的颜色 -->
+		        <stroke
+		            android:width="5px"
+		            android:color="#FFFFFFFF"/>
+		</shape>
+	</item>
+	
+	<!-- 触摸模式下单击时的背景图片-->  
+	<item android:state_focused="true">
+	    <shape  android:shape="oval">  
+		    <!-- 填充 -->
+		    <solid
+		        android:color="@color/add_button_bg_press_color"/><!-- 填充的颜色 -->
+		        <stroke
+		            android:width="5px"
+		            android:color="#FFFFFFFF"/>
+		</shape>
+	</item> 
+
+</selector>
+
+
+
+
+
+
+
+
+
+

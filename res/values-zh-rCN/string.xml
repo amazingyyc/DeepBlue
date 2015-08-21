@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">深蓝</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="share_text">分享</string>
+    <string name="save_text">保存</string>
+    <string name="lock_text">锁屏</string>
+    <string name="table_text">桌面</string>
+    
+    <string name="edit_text_hint">请输入</string>
+    
+    <string name="info_text">作者：惊奇漫画\n邮箱：1219186770@qq.com</string>
+    
+    <string name="font_path">fonts/font.ttf</string>
+    
+    <string name="image_content">image</string>
+    
+    <string name="success_set_wallpaper">桌面壁纸设置成功</string>
+    <string name="fail_set_wallpaper">桌面壁纸设置失败，请重试</string>
+    
+    <!-- 图片目录 -->
+    <string name="save_bitmap_dir">/sdcard/deepblue</string>
+    
+    <string name="success_save_bitmap">图片保存成功到：</string>
+    <string name="fail_save_bitmap">图片保存失败，请重试</string>
+    <string name="no_sdcard">没有sdcard，请插入重试</string>
+    
+    <!-- 设置锁屏壁纸的文字 -->
+    <string name="success_set_lock_wallpaper">锁屏壁纸设置成功</string>
+    <string name="fail_set_lock_wallpaper">锁屏壁纸设置失败，请重试或者保存图片后手动设置</string>
+    <string name="not_support_set_lock_wallpaper">此手机不支持设置锁屏壁纸，请保存图片后手动设置</string>
+    
+    <!-- 分享需要的文字 -->
+    <string name="fail_share_bitmap">图片分享失败 ,请重试</string>
+    <string name="no_sdcard_share">没有插入sdcard，无法分享图片 </string>
+    
+    <string name="share_activity_title">分享图片</string>
+    <string name="share_extra_subject">分享图片</string>
+    <string name="share_extra_text">我用#深蓝app#制作了一张高清图片，一起来制作吧!!</string>
+</resources>
+
+
+
+
+

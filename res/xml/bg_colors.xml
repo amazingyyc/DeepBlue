@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 子体颜色颜色 -->
+<resources>
+    <color value="#E51C23"/>
+    <color value="#000000"/>
+    <color value="#009688"/>
+    <color value="#259B24"/>
+    <color value="#9C27B0"/>
+    <color value="#673AB7"/>
+    <color value="#3F51B5"/>
+    <color value="#FF9800"/>
+    <color value="#CCCCCC"/>
+</resources>

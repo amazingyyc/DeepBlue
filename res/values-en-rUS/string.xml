@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DeepBlue</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="share_text">Share</string>
+    <string name="save_text">Save</string>
+    <string name="lock_text">Lock</string>
+    <string name="table_text">Home</string>
+    
+    
+    <string name="info_text">Develper:amamzingyyc\nE-mail:1219186770@qq.com</string>
+    
+    <string name="font_path">fonts/font.ttf</string>
+    
+    <string name="image_content">image</string>
+    
+    <string name="success_set_wallpaper">set home Wallpaper success</string>
+    <string name="fail_set_wallpaper">set home Wallpaper fail, please try again</string>
+    
+    <string name="save_bitmap_dir">/sdcard/deepblue</string>
+    
+    <string name="success_save_bitmap">save picture success：</string>
+    <string name="fail_save_bitmap">save picture fail, please try again</string>
+    <string name="no_sdcard">no sdcard, please insert</string>
+    
+    <string name="success_set_lock_wallpaper">set lock Wallpaper success</string>
+    <string name="fail_set_lock_wallpaper">set lock Wallpaper fail, please try again or save it, do it by yourself</string>
+    <string name="not_support_set_lock_wallpaper">your phone not support setting lock wallpaper, please save the pic and do it by yourself</string>
+    
+    <string name="fail_share_bitmap">share picture fail, please try again</string>
+    <string name="no_sdcard_share">not sdcard, can not share</string>
+    
+    <string name="share_activity_title">share picture</string>
+    <string name="share_extra_subject">share picture</string>
+    <string name="share_extra_text">i make a picture using #DeepBlue#, do it with me!!</string>
+</resources>
+
+
+
+

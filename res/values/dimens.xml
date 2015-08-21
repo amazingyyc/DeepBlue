@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="operate_button_w">40dp</dimen>
+    <dimen name="operate_button_h">40dp</dimen>
+    <dimen name="operate_button_r">20dp</dimen>
+    
+    <dimen name="set_button_w">65dp</dimen>
+    <dimen name="set_button_h">65dp</dimen>
+    
+    <dimen name="button_margin">15dp</dimen>
+    
+    <!-- seekbar用到的属性 -->
+   <dimen name="seekbar_thumb_width">60px</dimen>
+    <dimen name="seekbar_thumb_radius">30px</dimen>
+    <dimen name="seekbar_padding">25px</dimen>
+    <dimen name="seekbar_height">500px</dimen>
+</resources>

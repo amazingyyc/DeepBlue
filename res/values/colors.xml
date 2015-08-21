@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--按钮点击时的颜色 -->   
+<color name="info_button_bg_color">#22FFFFFF</color>
+<color name="button_bg_color">#33FFFFFF</color>
+
+<!--aseekbar的thumb的色颜色 -->  
+<color name="seekbar_press_color">#FFCCCCCC</color>
+<color name="seekbar_unpress_color">#FFEEEEEE</color>
+
+<!--add按钮点击时的颜色 -->   
+<color name="add_button_bg_unpress_color">#FFAAAAAA</color>
+<color name="add_button_bg_press_color">#FF999999</color>
+
+<!--a描边颜色 --> 
+<color name="stroke_color">#FFEEEEEE</color>
+
+<!--operatebutton颜色--> 
+<color name="operate_shadow_color">#FF666666</color>
+
+<color name="operate_share_press_color">#FFCC0099</color>
+<color name="operate_share_unpress_color">#FF970B74</color>
+
+<color name="operate_lock_press_color">#FF999900</color>
+<color name="operate_lock_unpress_color">#FF74740B</color>
+
+<color name="operate_table_press_color">#FF9966FF</color>
+<color name="operate_table_unpress_color">#FF7451BB</color>
+
+<!-- operat之按钮颜色 FFCC00 -->
+<color name="lock_text_color">#FF999900</color>
+<color name="table_text_color">#FF9966FF</color>
+<color name="save_text_color">#FFFFCC00</color>
+<color name="share_text_color">#FFCC0099</color>
+
+<!-- 主题颜色 -->
+<color name="theme_color">#FF0066FF</color>
+
+<color name="info_bg_color">#FF0066FF</color>
+
+<!-- edittext hint的颜色 -->
+<color name="edit_text_hint_color">#FFAAAAAA</color>
+
+<!-- 光标的颜色 -->
+<color name="edit_text_cursor_color">#FFFFFFFF</color>
+
+</resources>
+
+
+
+
+
